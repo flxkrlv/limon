@@ -1,17 +1,17 @@
 <!doctype html>
 
 <html>
-<head> 
+<head>
 
 <meta http-equiv="Refresh" content="99999999" />
 
-<meta charset="UTF-8"> 
+<meta charset="UTF-8">
 
-<title>main</title> 
+<title>main</title>
 
-<link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="stylesheet" type="text/css" href="style.css">
 
-<script src="script.js"></script> 
+<script src="script.js"></script>
 
 </head>
 <body>
@@ -25,12 +25,11 @@ function getDate()
     var date = new Date();
     var hours = date.getHours();
     var minutes = date.getMinutes();
-  
+
     var day = date.getDay();
-    var monthList = new Array('января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 
+    var monthList = new Array('января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля',
         'августа', 'сентября', 'октября', 'ноября', 'декабря');
     var month  = monthList[date.getMonth()];
-
 
     if(minutes < 10)
     {
@@ -41,29 +40,29 @@ function getDate()
     document.getElementById('datedisplay').innerHTML = day + ' ' + month;
 
 }
-setInterval(getDate, 0);
+
 
 </script>
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 <div class="main">
 
 
     <div class="topbar">
 
 		    <div class=time id="timedisplay"></div>
-        
+
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
         <div class=date id="datedisplay"></div>
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
-        <div class=box><p1>бокс 1</p1></div> 
+        <div class=box><p1>бокс 1</p1></div>
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
@@ -75,14 +74,14 @@ setInterval(getDate, 0);
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
-        <div class=weather><p1>погода хорошая</p1></div> 
+        <div class=weather><p1>погода хорошая</p1></div>
 
     </div>
 
 
 
     <img class="divider" src="img/line-28@1x.svg"/>
-    
+
 
 
     <div class="auto">
@@ -109,7 +108,7 @@ setInterval(getDate, 0);
 
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
-        
+
 
         <div class= "skoda">
         <img class="skodasvg" src="img/vector-7@2x.svg"/>
@@ -133,7 +132,7 @@ setInterval(getDate, 0);
 
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
-        
+
 
         <div class= "lexus">
         <img class="lexussvg" src="img/vector-5@2x.svg"/>
@@ -188,19 +187,19 @@ setInterval(getDate, 0);
       <p1 class="i">I</p1>
 
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <p1 class="ii">II</p1>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <p1 class="iii">III</p1>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <p1 class="iv">IV</p1>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <p1 class="v">V</p1>
 
     </div>
@@ -220,17 +219,17 @@ setInterval(getDate, 0);
       <img class="vertical_line" src="img/line-37@2x.svg"/>
 
       <div class="эксп"><p>эксп</p></div>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <div class="техн"><p>техн</p></div>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <div class="керх"><p>керх</p></div>
-      
+
       <img class="vertical_line" src="img/line-37@2x.svg"/>
-      
+
       <div class="салон"><p>салон</p></div>
 
     </div>
@@ -239,7 +238,7 @@ setInterval(getDate, 0);
     <img class="divider" src="img/line-28@1x.svg"/>
 
     <div class="advanced_options">
-      <div class="advanced_options12">  
+      <div class="advanced_options12">
         <div class="advanced_options1">
           <p class="воск">воск</p>
           <img class="vertical_line" src="img/line-37@2x.svg"/>
@@ -252,7 +251,7 @@ setInterval(getDate, 0);
 
         <div class="advanced_options2">
           <p class="черн">черн</p>
-          <img class="vertical_line" src="img/line-37@2x.svg"/> 
+          <img class="vertical_line" src="img/line-37@2x.svg"/>
           <p class="двиг">двиг</p>
           <img class="vertical_line" src="img/line-37@2x.svg"/>
           <p class="силик">силик</p>
@@ -263,8 +262,8 @@ setInterval(getDate, 0);
       <div class="more">
         <img class="vertical_line2" src="img/line-37@3x.svg"/>
         <p class=text_more>more</p>
-      </div> 
-       
+      </div>
+
     </div>
 
 
@@ -274,28 +273,22 @@ setInterval(getDate, 0);
     />
 
 
-    <h1 class="sum">здесь выводятся выбранные параметры</h1>
+    <h1 class="sum">здесь выводятся выбранные параметры234</h1>
 
-    <img
-    class="divider"
-    src="line-28@1x.svg"
-    />
+    <img class="divider src="img/line-28@1x.svg />
 
     <h1 class="price">Цена:</h1>
 
     <div class="pricebar">
 
     <div class="rectangle-">
-    <img
-  class="-"
-  src="line-49@2x.svg"
-    />
+    <img class="-" src="img/line-49@2x.svg"/>
     </div>
 
      <div class="rectangle_price">
      <h1 class="summa">600 ₽</h1>
      </div>
- 
+
  <div class="rectangle+">
      <div class="plus">
      <img
@@ -307,17 +300,18 @@ setInterval(getDate, 0);
        src="line-51@2x.svg"
        />
  </div>
-  
 
- <div class="rectangle_start"></div> 
+
+ <div class="rectangle_start"></div>
  <h1 class="start">начать</h1>
  </div>
 
 
-    
 
 </div>
 
-</body>      
-</html>
 
+</div>
+
+</body>
+</html>
