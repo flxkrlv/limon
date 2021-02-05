@@ -13,6 +13,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 p {
+font-family: "Montserrat";
 display: block;
 margin-block-start: 0;
 margin-block-end: 15px;
@@ -21,6 +22,7 @@ margin-inline-end: 0;
 }
 
 p1 {
+font-family: "Montserrat";
 display: block;
 margin-block-start: 0;
 margin-block-end: 0;
@@ -39,12 +41,12 @@ height: 74px;
 .topbar {
 display: flex;
 justify-content: space-around;
-font-family: "Montserrat";
 font-size: 48px;
 font-weight: lighter;
 align-items: center;
 height: 74px;;
 color: white;
+font-family: "Montserrat";
 }
 
 .divider {
@@ -60,7 +62,6 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 position: relative;
 display: flex;
 justify-content: space-around;
-font-family: "Montserrat";
 font-weight: medium;
 font-size: 36px;
 align-items: center;
@@ -74,7 +75,6 @@ color: #718BCD;
 .type_of_car{
 display: flex;
 justify-content: space-around;
-font-family: "Montserrat";
 font-size: 96px;
 font-weight: lighter;
 align-items: center;
@@ -89,7 +89,6 @@ color: white;
 .main_options{
 display: flex;
 justify-content: space-around;
-font-family: "Montserrat";
 font-size: 96px;
 font-weight: lighter;
 align-items: center;
@@ -104,13 +103,12 @@ color: white;
 .advanced_options {
 display: flex;
 justify-content: space-around;
-font-family: "Montserrat";
 font-size: 96px;
 font-weight: lighter;
 color: white;
 height: 280px;
 text-align: center;
-align-items: center; 
+align-items: center;
 margin-right:40px;
 }
 
@@ -147,10 +145,115 @@ flex: 1;
 margin-top: 10px;
 margin-left: 30px;
 color: #718BCD;
-}
+}e
 
 .vertical_line2{
 display: flex;
 margin-top: 0px;
 }
 
+.text_all{
+display: flex;
+font-size: 36px;
+font-weight: lighter;
+align-items: center;
+color: white;
+margin-left: 30px;
+margin-top: 5px;
+height: 70px;
+}
+
+
+.pricebar{
+display: flex;
+height: 150px;
+align-items: center;
+text-align: center;
+}
+
+
+.price{
+color: white;
+font-size: 76px;
+margin-left: 30px;
+width: 250px;
+}
+
+.rectangle_minus{
+width: 100px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+}
+
+.minus{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 90px;
+}
+
+.rectangle_price{
+width: 300px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+}
+
+.summa{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 76px;
+}
+
+.rectangle_plus{
+width: 100px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+}
+
+.plus{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 100px;
+}
+
+
+
+.rectangle_start{
+width: 400px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+margin-left: 300px;
+}
+
+
+.start{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 80px;
+}

@@ -31,6 +31,7 @@ function getDate()
         'августа', 'сентября', 'октября', 'ноября', 'декабря');
     var month  = monthList[date.getMonth()];
 
+
     if(minutes < 10)
     {
         minutes = '0' + minutes;
@@ -66,11 +67,11 @@ function getDate()
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
-        <div class=smena><p1>дневная 2</p1></div>
+        <div class=sum><p1>итого: 9450₽</p1></div>
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
-        <div class=sum><p1>итого: 9450 ₽</p1></div>
+        <div class=zp><p1>зп: 4000₽</p1></div>
 
         <img class="vertical_line" src="img/line-37@2x.svg"/>
 
@@ -267,48 +268,39 @@ function getDate()
     </div>
 
 
-    <img
-    class="divider"
-    src="img/line-28@1x.svg"
-    />
+    <img class="divider" src="img/line-28@1x.svg"/>
 
 
-    <h1 class="sum">здесь выводятся выбранные параметры234</h1>
+    <p class="text_all">здесь выводятся выбранные параметры</p>
 
-    <img class="divider src="img/line-28@1x.svg />
+    <img class="divider" src="img/line-28@1x.svg"/>
 
-    <h1 class="price">Цена:</h1>
 
-    <div class="pricebar">
+  <div class="pricebar">
 
-    <div class="rectangle-">
-    <img class="-" src="img/line-49@2x.svg"/>
+
+    <p class="price">Цена:</p>
+    <div class="rectangle_minus">
+    <p class="minus">-</p>
     </div>
 
      <div class="rectangle_price">
-     <h1 class="summa">600 ₽</h1>
+     <p class="summa">600₽</p>
      </div>
 
- <div class="rectangle+">
-     <div class="plus">
-     <img
-       class="vertical"
-       src="line-52@2x.svg"
-       />
-     <img
-       class="horizontal"
-       src="line-51@2x.svg"
-       />
- </div>
+     <div class="rectangle_plus">
+     <p class="plus">+</p>
+     </div>
+
+     <div class="rectangle_start">
+     <p class="start">начать</p>
+    </div>
 
 
- <div class="rectangle_start"></div>
- <h1 class="start">начать</h1>
- </div>
+  </div>
 
 
 
-</div>
 
 
 </div>
