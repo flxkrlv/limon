@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400,500,300|Noto+Sans:800italic,800");
+
+.main {
+position: fixed;
+background-color: #33353C;
+height: 1080px;
+width: 1920px;
+left: 0px;
+top: 0;
+font-kerning: auto;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+p {
+font-family: "Montserrat";
+display: block;
+margin-block-start: 0;
+margin-block-end: 15px;
+margin-inline-start: 0;
+margin-inline-end: 0;
+}
+
+p1 {
+font-family: "Montserrat";
+display: block;
+margin-block-start: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+margin-inline-end: 0;
+}
+
+
+
+.vertical_line{
+height: 74px;
+}
+
+
+
+.topbar {
+display: flex;
+justify-content: space-around;
+font-size: 48px;
+font-weight: lighter;
+align-items: center;
+height: 74px;;
+color: white;
+font-family: "Montserrat";
+}
+
+.divider {
+display: flex;
+justify-content: space-around;
+margin-top: 0px;
+width: 1900px;
+margin-left: 10px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.auto {
+
+margin-top: 100 px;
+display: flex;
+justify-content: space-around;
+color: white;
+}
+
+.auto2 {
+display: flex;
+justify-content: space-around;
+color: white;
+}
+
+
+.rectangle {
+  width: 150px;
+  height: 150px;
+}
