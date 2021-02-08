@@ -257,3 +257,44 @@ color: white;
 font-size: 96px;
 height: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 60px;
+	line-height: 120px;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: #5A688B;;
+	color: white;
+}
