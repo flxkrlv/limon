@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700,500,300|Noto+Sans:800italic,800");
 .loading {
   align-items: flex-start;
-  background-color: var(--opium);
+  background-color:#33353C;
   display: flex;
   height: 1080px;
   overflow: hidden;
@@ -59,15 +59,14 @@
 
 }
 .raleway-light-opium-96px {
-  color: var(--opium);
+  color: white;
   font-family: "Raleway", Helvetica, Arial, serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 300;
 }
-:root {
-  --opium: rgba(143, 109, 109, 1);
-}
+
+
 .loading .vector {
     transform: translateX(-1%) translateY(-1%);
     animation: Vector__rotation__1 5000ms 0ms cubic-bezier(0.32769230769230767,1.2564102564102564,0.5902564102564102,-0.1692307692307693) forwards;
