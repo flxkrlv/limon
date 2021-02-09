@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700,500,300|Noto+Sans:800italic,800");
 
 .loading {
-  align-items: flex-start;
   position: fixed;
   background-color:#33353C;
   display: flex;
@@ -9,11 +8,6 @@
   width: 1920px;
   left: 0px;
   top: 0;
-  margin: 0px;
-  margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
 
 }
 .loading .is-loading {
