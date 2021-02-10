@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700,400,500,300|Noto+Sans:800italic,800");
 
 .main {
-position: fixed;
-background-color: #33353C;
-height: 1080px;
-width: 1920px;
-left: 0px;
-top: 0;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
 font-kerning: auto;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 -ms-user-select: none;
@@ -15,6 +12,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 -webkit-user-select: none;
 }
 
+body{
+	background-color: #33353C;
+}
 
 button {
 cursor: pointer;
@@ -87,9 +87,11 @@ font-family: "Montserrat";
 display: flex;
 justify-content: space-around;
 margin-top: 0px;
-width: 1900px;
 margin-left: 10px;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+flex: 1;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .auto{
@@ -226,15 +228,15 @@ display: flex;
 height: 150px;
 align-items: center;
 text-align: center;
-position: fixed;
-bottom: -4px;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 
 .price{
 color: white;
 font-size: 76px;
-margin-left: 30px;
 width: 250px;
 }
 
@@ -244,7 +246,6 @@ height: 100px;
 background: #5A688B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15.1136px;
-margin-left: 30px;
 cursor: pointer;
 }
 
@@ -265,7 +266,6 @@ height: 100px;
 background: #5A688B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15.1136px;
-margin-left: 30px;
 }
 
 .summa{
@@ -283,7 +283,6 @@ height: 100px;
 background: #5A688B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15.1136px;
-margin-left: 30px;
 }
 
 .plus{
@@ -304,8 +303,6 @@ height: 100px;
 background: #5A688B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15.1136px;
-margin-left: 30px;
-margin-left: 300px;
 }
 
 
