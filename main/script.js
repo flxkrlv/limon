@@ -221,8 +221,17 @@ function check()
     bitum = 0;  }
     }
 
-
-
+    if (itog_calc > 0) {
+      document.getElementById('text_all_10').innerHTML = '+ ' + itog_calc;
+    }
+    else {
+      if (itog_calc < 0) {
+        document.getElementById('text_all_10').innerHTML = '- ' + Math.abs(itog_calc);
+      }
+      else {
+        document.getElementById('text_all_10').innerHTML = '';
+      }
+    }
 
 
     itog = mainoption_itog + shampoo_itog + koja + chern + dvig + silic + bitum + itog_calc;
