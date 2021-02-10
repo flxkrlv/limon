@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400,500,300|Noto+Sans:800italic,800");
+
+.main {
+position: fixed;
+background-color: #33353C;
+height: 1080px;
+width: 1920px;
+left: 0px;
+top: 0;
+font-kerning: auto;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+-ms-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+}
+
+
+button {
+cursor: pointer;
+}
+
+
+p {
+font-family: "Montserrat";
+display: block;
+margin-block-start: 0;
+margin-block-end: 15px;
+margin-inline-start: 0;
+margin-inline-end: 0;
+}
+
+p1 {
+font-family: "Montserrat";
+display: block;
+margin-block-start: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+margin-inline-end: 0;
+}
+
+
+
+.vertical_line{
+height: 74px;
+}
+
+
+
+.topbar {
+display: flex;
+justify-content: space-around;
+font-size: 48px;
+font-weight: lighter;
+align-items: center;
+height: 74px;;
+color: white;
+font-family: "Montserrat";
+}
+
+.divider {
+display: flex;
+justify-content: space-around;
+margin-top: 0px;
+width: 1900px;
+margin-left: 10px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.auto{
+position: relative;
+display: flex;
+justify-content: space-around;
+font-weight: medium;
+font-size: 36px;
+align-items: center;
+height: 163px;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 10px;
+color: #718BCD;
+}
+
+
+.car1{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car2{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car3{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car4{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car5{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car6{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car7{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car8{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car9{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car10{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+.car11{
+display: flex;
+justify-content: center;
+width: 140px;
+height: 126px;
+}
+
+
+.type_of_car{
+display: flex;
+justify-content: space-around;
+font-size: 96px;
+font-weight: lighter;
+align-items: center;
+height: 150px;
+margin-left: 70px;
+margin-right: 70px;
+color: white;
+}
+
+
+
+.main_options{
+display: flex;
+justify-content: space-around;
+font-size: 96px;
+font-weight: lighter;
+align-items: center;
+height: 150px;
+margin-left: 15px;
+margin-right: 15px;
+color: white;
+}
+
+
+
+.advanced_options {
+display: flex;
+justify-content: space-around;
+font-size: 96px;
+font-weight: lighter;
+color: white;
+height: 280px;
+text-align: center;
+align-items: center;
+margin-right:40px;
+margin-bottom: 5px;
+}
+
+.advanced_options12 {
+display: flex;
+flex-direction: column;
+flex: 6;
+}
+
+.advanced_options1 {
+display: flex;
+justify-content: space-around;
+flex-direction:row;
+align-items: center;
+height: 140px;
+}
+
+.advanced_options2 {
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+height: 140px;
+}
+
+.more{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex: 1;
+}
+
+.text_more{
+margin-top: 10px;
+margin-left: 30px;
+color: #718BCD;
+}e
+
+.vertical_line2{
+display: flex;
+margin-top: 0px;
+}
+
+.text_all{
+font-family: "Montserrat";
+display: flex;
+font-size: 36px;
+font-weight: lighter;
+align-items: center;
+color: white;
+margin-left: 30px;
+margin-top: 5px;
+height: 90px;
+}
+
+
+.pricebar{
+display: flex;
+height: 150px;
+align-items: center;
+text-align: center;
+}
+
+
+.price{
+color: white;
+font-size: 76px;
+margin-left: 30px;
+width: 250px;
+}
+
+.rectangle_minus{
+width: 100px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+cursor: pointer;
+}
+
+.minus{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 90px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle_price{
+width: 300px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+}
+
+.summa{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 76px;
+}
+
+.rectangle_plus{
+width: 100px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+}
+
+.plus{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 100px;
+}
+
+
+
+.rectangle_start{
+width: 400px;
+height: 100px;
+background: #5A688B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15.1136px;
+margin-left: 30px;
+margin-left: 300px;
+}
+
+
+.start{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 96px;
+height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+.type_of_car_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.type_of_car_radio_btn input[type=radio] {
+ display: none;
+}
+.type_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 60px;
+	line-height: 120px;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Checked */
+.type_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.type_of_car_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.type_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+}
+
+
+
+.main_option_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.main_option_radio_btn input[type=radio] {
+	display: none;
+}
+.main_option_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 20px;
+	line-height: 120px;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Checked */
+.main_option_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.main_option_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.main_option_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+}
+
+
+
+
+.name_of_car_radio_btn {
+	display: inline-block;
+}
+.name_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+.name_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 5px 7px;
+	border-radius: 6px;
+	user-select: none;
+	c
+}
+
+/* Checked */
+.name_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.name_of_car_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.name_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+}
+
+
+
+
+
+.advanced_options_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.advanced_options_btn input[type=checkbox] {
+	display: none;
+}
+.advanced_options_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 20px;
+	line-height: 100px;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Checked */
+.advanced_options_btn input[type=checkbox]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.main_option_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.advanced_options_btn input[type=checkbox]:disabled + label {
+	background: #33353C;;
+	color: white;
+}
+
+
+
+.advanced_options_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.advanced_options_radio_btn input[type=radio] {
+	display: none;
+}
+.advanced_options_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 20px;
+	line-height: 100px;
+	border-radius: 6px;
+	user-select: none;
+}
+
+/* Checked */
+.advanced_options_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;;
+}
+
+/* Hover */
+.advanced_options_radio_btn label:hover {
+	color: white;
+}
+
+/* Disabled */
+.advanced_options_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+}
+
+.text_all_1{
+	font-weight: 500;
+}
+
+.text_all_2{
+	font-weight: 500;
+}
+
+.text_all_3{
+	font-weight: 500;
+}
+
+.text_all_5{
+	font-weight: 100;
+}
+
+.text_all_6{
+	font-weight: 100;
+}
+
+.text_all_7{
+	font-weight: 100;
+}
