@@ -70,7 +70,9 @@ function check()
     var brand = document.getElementsByName('n_o_c');
 
     var car_brand_text = new Array('BMW', 'Mercedes', 'Volkswagen', 'Skoda', 'Renault', 'Toyota', 'Lexus',
-    'Mazda', 'Land Rover', 'KIA');
+    'Mazda', 'Land Rover', 'KIA', 'Audi', 'Ford', 'Hyundai', 'Infinti', 'Jaguar', 'Jeep', 'Mini', 'Lifan',
+    'Mitsubishi', 'Nissan', 'Lada', 'Opel', 'Porshe', 'Peugeot', 'Saab', 'SsangYong', 'Subaru', 'Suzuki',
+    'Volvo', 'Cadillac', 'Chery', 'Chevrolet', 'Chrysler', 'Citroen', 'Dodge', 'Fiat', 'Honda', 'Other');
 
     for (var i = 0; i < brand.length; i++) {
         if (brand[i].type == "radio" && brand[i].checked) {
