@@ -41,8 +41,9 @@ p1{
 
 p2{
   font-family: "Montserrat";
-  font-weight: lighter;
+  font-style: normal;
   font-size: 28px;
+  font-weight: lighter;
   text-align: center;
   color: white;
 }
@@ -153,7 +154,6 @@ body{
 }
 
 .rectangle_button {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,10 +164,52 @@ body{
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  font-size: 28px;
 }
 
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50px;
+}
+
+
+
+.rectangle_button input[type=checkbox] {
+	display: none;
+}
+
+.rectangle_button label {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+  width: 231px;
+  height: 48px;
+	line-height: 100px;
+	border-radius: 10px;
+	user-select: none;
+}
+
+.rectangle_button input[type=checkbox]:checked + label {
+	background: #5A688B;
+  font-size: 28px;
+  transition: 0.4s;
+}
+
+.rectangle_button label:hover {
+  transition: 0.2s;
+  background-color: #3D4047;
+}
+
+.rectangle_button input[type=checkbox]:disabled + label {
+	background: #33353C;
+	color: white;
+  transition: 0.4s;
+}
+
+.rectangle_button label::after:hover {
+  font-size: 28px;
+  transition: 0.5s;
 }
