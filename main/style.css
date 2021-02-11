@@ -242,6 +242,7 @@ p1 {
 	color: white;
 	font-size: 76px;
 	width: 250px;
+	margin-right: 20px;
 	flex:1;
 }
 
@@ -250,7 +251,7 @@ p1 {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	flex:4;
+	flex:1;
 }
 
 .rectangle_minus{
