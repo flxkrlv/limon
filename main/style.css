@@ -336,16 +336,19 @@ p1 {
 }
 
 .type_of_car_radio_btn input[type=radio]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .type_of_car_radio_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .type_of_car_radio_btn input[type=radio]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .main_option_radio_btn {
@@ -367,16 +370,19 @@ p1 {
 }
 
 .main_option_radio_btn input[type=radio]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .main_option_radio_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .main_option_radio_btn input[type=radio]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .name_of_car_radio_btn {
@@ -396,16 +402,19 @@ p1 {
 }
 
 .name_of_car_radio_btn input[type=radio]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .name_of_car_radio_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .name_of_car_radio_btn input[type=radio]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .advanced_options_btn {
@@ -427,16 +436,19 @@ p1 {
 }
 
 .advanced_options_btn input[type=checkbox]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .advanced_options_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .advanced_options_btn input[type=checkbox]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .advanced_options_radio_btn {
@@ -458,16 +470,19 @@ p1 {
 }
 
 .advanced_options_radio_btn input[type=radio]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .advanced_options_radio_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .advanced_options_radio_btn input[type=radio]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .overlay_name_of_car_radio_btn {
@@ -489,16 +504,19 @@ p1 {
 }
 
 .overlay_name_of_car_radio_btn input[type=radio]:checked + label {
-	background: #5A688B;;
+	background: #5A688B;
+	transition: 0.3s;
 }
 
 .overlay_name_of_car_radio_btn label:hover {
 	color: white;
+	transition: 0.3s;
 }
 
 .overlay_name_of_car_radio_btn input[type=radio]:disabled + label {
-	background: #33353C;;
+	background: #33353C;
 	color: white;
+	transition: 0.3s;
 }
 
 .text_all_1{
