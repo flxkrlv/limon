@@ -71,10 +71,10 @@ body{
 .auto{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	align-items: center;
-	margin-left: 1vw;
-	margin-right: 1vw;
+	height: 9vw;
 }
 
 .carsvg{
@@ -84,7 +84,8 @@ body{
 }
 
 .name_of_car_radio_btn {
-	display: inline-block;
+	width: 7vw;
+	height: 5vw;
 }
 
 .name_of_car_radio_btn input[type=radio] {
@@ -92,7 +93,9 @@ body{
 }
 
 .name_of_car_radio_btn label {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	cursor: pointer;
 	user-select: none;
 }
