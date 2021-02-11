@@ -3,7 +3,7 @@
 .main {
 	height: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	flex-direction: column;
 	font-kerning: auto;
 	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,4 +66,49 @@ body{
 	width: 0.1vw;
 	height: 2vw;
 	background: #7A8298;
+}
+
+.auto{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.carsvg{
+	display: flex;
+	justify-content: center;
+	width: 6.3vw;
+}
+
+.name_of_car_radio_btn {
+	display: inline-block;
+}
+
+.name_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+
+.name_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+.name_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.name_of_car_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.name_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
 }
