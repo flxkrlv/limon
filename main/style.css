@@ -242,6 +242,15 @@ p1 {
 	color: white;
 	font-size: 76px;
 	width: 250px;
+	flex:1;
+}
+
+.summa_bar{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex:4;
 }
 
 .rectangle_minus{
@@ -270,6 +279,8 @@ p1 {
 	background: #5A688B;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 15.1136px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .summa{
@@ -297,6 +308,13 @@ p1 {
 	color: white;
 	font-size: 96px;
 	height: 100px;
+}
+
+.start_pos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 7;
 }
 
 .rectangle_start{
@@ -559,8 +577,7 @@ p1 {
 }
 
 .window {
-	width: 1860px;
-	left: 960px;
+	left: 50%;
 	z-index: 12;
 	margin: 0;
 	position: fixed;
@@ -569,7 +586,7 @@ p1 {
 	background: #33353C;
 	border-radius: 15px;
 	box-shadow: 0 13px 21px rgba(0,1,0,.19),0 21px 63px rgba(0,1,0,.31);
-	transform: translate(-50%, -1550%);
+	transform: translate(-50%, -1950%);
 	transition: transform 0.4s ease-out;
 	display: flex;
 	justify-content: space-around;
@@ -597,8 +614,7 @@ p1 {
 }
 
 .window2 {
-	width: 1860px;
-	left: 960px;
+	left: 50%;
 	z-index: 12;
 	margin: 0;
 	position: fixed;
