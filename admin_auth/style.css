@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400,500,300|Noto+Sans:800italic,800");
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: white;
+  margin: 0;
+  font-weight: lighter;
+  font-family: "Montserrat";
+}
+
+button {
+	cursor: pointer;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+input:active, input:focus {
+  outline: none;
+}
+
+input:-moz-focus-inner {
+  border: 0;
+}
+
+p1{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
+}
+
+p2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #33353C;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #33353C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stroke {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 921px;
+  height: 634px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.heading1 {
+  display: flex;
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  margin-top: 28px;
+}
+
+.heading2 {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  margin-bottom: 65px;
+}
+
+.login {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rectangle_login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:10px;
+  left: 70px;
+  width: 68px;
+  height: 33px;
+  background: #33353C;
+}
+
+.rectangle_input{
+  width: 652px;
+  height: 71px;
+  background: #33353C;
+  color: white;
+  font-size: 30px;
+  font-family: "Montserrat";
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.pass{
+  display: block;
+  margin-bottom: 67px;
+}
+
+.rectangle_pass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:10px;
+  left: 70px;
+  width: 80px;
+  height: 33px;
+  background: #33353C;
+}
+
+.rectangle_input2 {
+  width: 652px;
+  height: 71px;
+  background: #33353C;
+  color: white;
+  font-size: 30px;
+  font-family: "Montserrat";
+  background: #33353C;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.rectangle_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 233px;
+  height: 50px;
+  background: #33353C;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 28px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+
+
+.rectangle_button input[type=checkbox] {
+	display: none;
+}
+
+.rectangle_button label {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+  width: 231px;
+  height: 48px;
+	line-height: 100px;
+	border-radius: 10px;
+	user-select: none;
+}
+
+.rectangle_button input[type=checkbox]:checked + label {
+	background: #5A688B;
+  font-size: 28px;
+  transition: 0.4s;
+}
+
+.rectangle_button label:hover {
+  transition: 0.2s;
+  background-color: #3D4047;
+}
+
+.rectangle_button input[type=checkbox]:disabled + label {
+	background: #33353C;
+	color: white;
+  transition: 0.4s;
+}
+
+.rectangle_button label::after:hover {
+  font-size: 28px;
+  transition: 0.5s;
+}
