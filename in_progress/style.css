@@ -69,10 +69,15 @@ p1{
 	margin-inline-end: 0;
 }
 
+button{
+	border: none;
+}
+
 .topbar_column{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	height: 6vh;
 }
 
 .topbar {
@@ -80,7 +85,7 @@ p1{
 	justify-content: space-around;
 	font-weight: lighter;
 	align-items: center;
-	height: 3vw;
+	height: 5vh;
 	color: white;
 	font-family: "Montserrat";
 }
@@ -92,7 +97,7 @@ p1{
 	position: relative;
 	left: 0.5%;
 	width: 99vw;
-	height: 0.1vw;
+	height: 0.18vh;
 	background: #7A8298;
 }
 
@@ -101,7 +106,16 @@ p1{
 	justify-content: center;
 	left: 50%;
 	width: 0.1vw;
-	height: 2vw;
+	height: 4vh;
+	background: #7A8298;
+}
+
+.vertical_line2{
+	display: flex;
+	justify-content: center;
+	left: 50%;
+	width: 0.1vw;
+	height: 8vh;
 	background: #7A8298;
 }
 
@@ -110,7 +124,7 @@ p1{
 	justify-content: space-around;
 	align-items: center;
 	width: 100vw;
-	height: 8vw;
+	height: 14vh;
 }
 
 .carsvg{
@@ -126,7 +140,7 @@ p1{
 	font-weight: lighter;
 	align-items: center;
 	width: 96vw;
-	height: 8vw;
+	height: 14vh;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	font-size: 5vw;
@@ -139,13 +153,188 @@ p1{
 	font-weight: lighter;
 	align-items: center;
 	width: 96vw;
-	height: 8vw;
+	height: 14vh;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	font-size: 4vw;
 	color: white;
 }
 
+.advanced_options {
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 28vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 4vw;
+	color: white;
+}
+
+.advanced_options12 {
+	display: flex;
+	flex-direction: column;
+	flex: 6;
+}
+
+.advanced_options1 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	align-items: center;
+	height: 14vh;
+}
+
+.advanced_options2 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	height: 14vh;
+}
+
+.more{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 1;
+}
+
+.text_all{
+	display: flex;
+	justify-content: flex-start;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 9vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 3vw;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.pricebar{
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 14vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 4vw;
+	color: white;
+}
+
+.price{
+	flex:1;
+}
+
+.summa_bar{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex:1;
+}
+
+.rectangle_minus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 5vw;
+	height: 9vh;
+	margin-left: 1vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.minus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4.5vw;
+	margin-bottom: 1vh;
+}
+
+.rectangle_price{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 15vw;
+	height: 9vh;
+	margin-left: 0.5vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.summa{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4vw;
+}
+
+.rectangle_plus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 5vw;
+	height: 9vh;
+	margin-left: 0.5vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.plus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4vw;
+}
+
+.start_pos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 7;
+}
+
+.rectangle_start{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 20vw;
+	height: 9vh;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+}
+
+.start{
+	display: flex;
+	color: white;
+	font-size: 5vw;
+}
 
 
 
@@ -259,6 +448,75 @@ p1{
 }
 
 .main_option_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+
+
+
+.advanced_options_btn {
+	display: inline-block;
+}
+
+.advanced_options_btn input[type=checkbox] {
+	display: none;
+}
+
+.advanced_options_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.advanced_options_btn input[type=checkbox]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.advanced_options_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.advanced_options_btn input[type=checkbox]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+
+
+.advanced_options_radio_btn {
+	display: inline-block;
+}
+
+.advanced_options_radio_btn input[type=radio] {
+	display: none;
+}
+
+.advanced_options_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.advanced_options_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.advanced_options_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.advanced_options_radio_btn input[type=radio]:disabled + label {
 	background: #33353C;
 	color: white;
 	transition: 0.3s;
