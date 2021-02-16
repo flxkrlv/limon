@@ -73,21 +73,12 @@ button{
 	border: none;
 }
 
-.topbar_column{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	height: 6vh;
+button:active, button:focus {
+	outline: none;
 }
 
-.topbar {
-	display: flex;
-	justify-content: space-around;
-	font-weight: lighter;
-	align-items: center;
-	height: 5vh;
-	color: white;
-	font-family: "Montserrat";
+button::-moz-focus-inner {
+	border: 0;
 }
 
 .divider {
@@ -118,6 +109,57 @@ button{
 	height: 8vh;
 	background: #7A8298;
 }
+
+.topbar_column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 6vh;
+}
+
+.topbar {
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	height: 5vh;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.krug{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inkrug{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 33.5vw;
+	height: 33.5vw;
+	border: 2.5vw solid rgba(122, 130, 152, 0.5);
+	border-radius: 100vw;
+	background: ;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .text_all{
 	display: flex;

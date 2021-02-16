@@ -73,6 +73,14 @@ button{
 	border: none;
 }
 
+button:active, button:focus {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
 .topbar_column{
 	display: flex;
 	flex-direction: column;
