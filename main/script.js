@@ -70,9 +70,7 @@ function check()
     var brand = document.getElementsByName('n_o_c');
 
     var car_brand_text = new Array('BMW', 'Mercedes', 'Volkswagen', 'Skoda', 'Renault', 'Toyota', 'Lexus',
-    'Mazda', 'Land Rover', 'KIA', 'Audi', 'Ford', 'Hyundai', 'Infinti', 'Jaguar', 'Jeep', 'Mini', 'Lifan',
-    'Mitsubishi', 'Nissan', 'Lada', 'Opel', 'Porshe', 'Peugeot', 'Saab', 'SsangYong', 'Subaru', 'Suzuki',
-    'Volvo', 'Cadillac', 'Chery', 'Chevrolet', 'Chrysler', 'Citroen', 'Dodge', 'Fiat', 'Honda', 'Other');
+    'Mazda', 'Land Rover', 'KIA');
 
     for (var i = 0; i < brand.length; i++) {
         if (brand[i].type == "radio" && brand[i].checked) {
@@ -223,17 +221,27 @@ function check()
     bitum = 0;  }
     }
 
-    if (itog_calc > 0) {
-      document.getElementById('text_all_10').innerHTML = '+ ' + itog_calc;
-    }
-    else {
-      if (itog_calc < 0) {
-        document.getElementById('text_all_10').innerHTML = '- ' + Math.abs(itog_calc);
+
+
+
+
+      if (itog_calc > 0) {
+        document.getElementById('text_all_10').innerHTML =  ' + ' + itog_calc + "₽";
       }
       else {
-        document.getElementById('text_all_10').innerHTML = '';
+        if (itog_calc < 0)  {
+          document.getElementById('text_all_10').innerHTML =  ' - ' +  Math.abs(itog_calc) + "₽";
+        }
+        else {
+          document.getElementById('text_all_10').innerHTML =  ' ';
+        }
       }
-    }
+
+
+
+
+
+
 
 
     itog = mainoption_itog + shampoo_itog + koja + chern + dvig + silic + bitum + itog_calc;
