@@ -109,6 +109,17 @@ button::-moz-focus-inner {
 	background: #7A8298;
 }
 
+.divider2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 0.5%;
+	width: 97vw;
+	height: 0.18vh;
+	background: #7A8298;
+}
+
 .vertical_line{
 	display: flex;
 	justify-content: center;
@@ -345,8 +356,124 @@ button::-moz-focus-inner {
 }
 
 
+.overlay {
+	background-color: rgba(1, 0, 0, 0.77);
+	right: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 11;
+	display: none;
+}
+
+.overlay:target {
+	display: block;
+}
+
+.window {
+	width: 98vw;
+	left: 50vw;
+	z-index: 12;
+	margin: 0;
+	position: fixed;
+	border: 1vw; solid #383738;
+	background: #33353C;
+	border-radius: 0.5vw;
+	box-shadow: 0 0.7vw 1vw rgba(0,1,0,.19),0 1vh 3vw rgba(0,1,0,.31);
+	transform: translate(-50%, -1550%);
+	transition: transform 0.4s ease-out;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.overlay:target+.window {
+	transform: translate(-50%, 0%);
+	top: 20vh;
+}
+
+.overlay2 {
+	background-color: rgba(1, 0, 0, 0.4);
+	right: 0;
+	left: 0;
+	position: fixed;
+	top: 20.2vh;
+	bottom: 0;
+	z-index: 11;
+	display: none;
+}
+
+.overlay2:target {
+	display: block;
+}
+
+.window2 {
+	width: 98vw;
+	left: 50vw;
+	z-index: 12;
+	margin: 0;
+	position: fixed;
+	border: 1vw; solid #383738;
+	background: #33353C;
+	border-radius: 0.5vw;
+	box-shadow: 0 0.7vw 1vw rgba(0,1,0,.19),0 1vh 3vw rgba(0,1,0,.31);
+	transform: translate(-50%, -1550%);
+	transition: transform 0.4s ease-out;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.overlay2:target+.window2 {
+	transform: translate(-50%, 0%);
+	top: 20.2vh;
+}
+
+.line1{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
 
 
+
+
+
+
+
+.overlay_name_of_car_radio_btn {
+	display: inline-block;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+
+.overlay_name_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.overlay_name_of_car_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+	transition: 0.3s;
+}
 
 
 
@@ -495,6 +622,7 @@ button::-moz-focus-inner {
 	color: white;
 	transition: 0.3s;
 }
+
 
 
 
