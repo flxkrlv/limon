@@ -67,6 +67,7 @@ p1{
 	margin-block-end: 0.8vw;
 	margin-inline-start: 0;
 	margin-inline-end: 0;
+	margin: 0;
 }
 
 button{
@@ -117,6 +118,8 @@ button::-moz-focus-inner {
 	left: 0.5%;
 	width: 97vw;
 	height: 0.18vh;
+	margin-top: 1.2vh;
+	margin-bottom: 1.2vh;
 	background: #7A8298;
 }
 
@@ -452,11 +455,16 @@ button::-moz-focus-inner {
 }
 
 .overlay_name_of_car_radio_btn label {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	cursor: pointer;
 	user-select: none;
 	border-radius: 0.4vw;
-	padding: 0vw 1vw;
+	width: 12vw;
+	height: 5vh;
 }
 
 .overlay_name_of_car_radio_btn input[type=radio]:checked + label {
